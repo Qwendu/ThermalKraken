@@ -334,6 +334,10 @@
     [
       "8c2804c0-90ed-471e-8073-15cf7e3965b7",
       "PowerSupply"
+    ],
+    [
+      "de32f10f-5064-49a9-8c83-68eb59f8eaab",
+      "ThermoCouplePins"
     ]
   ],
   "text_variables": {}
