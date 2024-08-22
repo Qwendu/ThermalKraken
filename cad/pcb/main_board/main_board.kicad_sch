@@ -18,6 +18,10 @@
     (property "Sheetfile" "mcu.kicad_sch" (at 30.48 102.1846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "ADC_IN[0..15]" input (at 103.505 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c1d998cc-3bd0-4d5f-a116-8616001adef7)
+    )
     (instances
       (project "main_board"
         (path "/6c1b8035-64fa-4797-a506-5c9583cb241c" (page "2"))
