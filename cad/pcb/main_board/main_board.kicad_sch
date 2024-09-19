@@ -201,10 +201,10 @@
     (uuid fe4e8898-8b34-4317-854f-c8d77a4eb7da)
   )
 
-  (global_label "VDD" (shape input) (at 120.65 76.2 180) (fields_autoplaced)
+  (global_label "VBUS" (shape input) (at 120.65 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 517b9ab9-622e-4735-b2c5-e4da93863fa8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.0362 76.2 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.7662 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
