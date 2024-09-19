@@ -225,7 +225,7 @@
     (property "Value" "USB_B_Micro" (at 140.97 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 130.175 69.85 0)
+    (property "Footprint" "Connector_USB:USB_Micro-B_Molex_47346-0001" (at 130.175 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.175 69.85 0)
