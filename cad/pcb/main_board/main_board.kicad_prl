@@ -78,6 +78,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "main_board.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": 2550,
+          "pos_y": 0,
+          "size_x": 2580,
+          "size_y": 2170
+        }
+      },
+      {
+        "name": "main_board.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": -10,
+          "pos_y": 0,
+          "size_x": 2602,
+          "size_y": 2170
+        }
+      }
+    ]
   }
 }

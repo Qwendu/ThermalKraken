@@ -1,0 +1,48 @@
+09-20 21:41:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+09-20 21:41:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Aug 14 2024, 05:26:19) [MSC v.1939 64 bit (AMD64)]'
+09-20 21:41:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.5
+09-20 21:41:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.3
+09-20 21:41:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x0000015E53961240>
+09-20 21:41:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with R19 as a reference
+09-20 21:41:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'R19'
+Located on: ['ThermoCouplePins', 'TCPin8']
+With filenames: ['thermo_couple_pins.kicad_sch', 'tcpin.kicad_sch']
+With sheet_id:['ThermoCouplePins', 'TCPin8']
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('R23', ['ThermoCouplePins', 'TCPin10']), ('R3', ['ThermoCouplePins', 'TCPin']), ('R7', ['ThermoCouplePins', 'TCPin2']), ('R31', ['ThermoCouplePins', 'TCPin13']), ('R33', ['ThermoCouplePins', 'TCPin12']), ('R29', ['ThermoCouplePins', 'TCPin15']), ('R17', ['ThermoCouplePins', 'TCPin7']), ('R21', ['ThermoCouplePins', 'TCPin9']), ('R13', ['ThermoCouplePins', 'TCPin5']), ('R11', ['ThermoCouplePins', 'TCPin4']), ('R27', ['ThermoCouplePins', 'TCPin14']), ('R25', ['ThermoCouplePins', 'TCPin11']), ('R5', ['ThermoCouplePins', 'TCPin1']), ('R19', ['ThermoCouplePins', 'TCPin8']), ('R15', ['ThermoCouplePins', 'TCPin6']), ('R9', ['ThermoCouplePins', 'TCPin3'])]
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TCPin8', file:'tcpin.kicad_sch'
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ThermoCouplePins', 'TCPin'], ['ThermoCouplePins', 'TCPin1'], ['ThermoCouplePins', 'TCPin10'], ['ThermoCouplePins', 'TCPin11'], ['ThermoCouplePins', 'TCPin12'], ['ThermoCouplePins', 'TCPin13'], ['ThermoCouplePins', 'TCPin14'], ['ThermoCouplePins', 'TCPin15'], ['ThermoCouplePins', 'TCPin2'], ['ThermoCouplePins', 'TCPin3'], ['ThermoCouplePins', 'TCPin4'], ['ThermoCouplePins', 'TCPin5'], ['ThermoCouplePins', 'TCPin6'], ['ThermoCouplePins', 'TCPin7'], ['ThermoCouplePins', 'TCPin9']]
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['ThermoCouplePins', 'TCPin8']
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(5067, 127)
+09-20 21:41:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(4628, 127)
+09-20 21:41:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TCPin8', file:'tcpin.kicad_sch'
+09-20 21:41:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ThermoCouplePins', 'TCPin'], ['ThermoCouplePins', 'TCPin1'], ['ThermoCouplePins', 'TCPin10'], ['ThermoCouplePins', 'TCPin11'], ['ThermoCouplePins', 'TCPin12'], ['ThermoCouplePins', 'TCPin13'], ['ThermoCouplePins', 'TCPin14'], ['ThermoCouplePins', 'TCPin15'], ['ThermoCouplePins', 'TCPin2'], ['ThermoCouplePins', 'TCPin3'], ['ThermoCouplePins', 'TCPin4'], ['ThermoCouplePins', 'TCPin5'], ['ThermoCouplePins', 'TCPin6'], ['ThermoCouplePins', 'TCPin7'], ['ThermoCouplePins', 'TCPin9']]
+09-20 21:41:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['ThermoCouplePins', 'TCPin8']
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TCPin8', file:'tcpin.kicad_sch'
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ThermoCouplePins', 'TCPin'], ['ThermoCouplePins', 'TCPin1'], ['ThermoCouplePins', 'TCPin10'], ['ThermoCouplePins', 'TCPin11'], ['ThermoCouplePins', 'TCPin12'], ['ThermoCouplePins', 'TCPin13'], ['ThermoCouplePins', 'TCPin14'], ['ThermoCouplePins', 'TCPin15'], ['ThermoCouplePins', 'TCPin2'], ['ThermoCouplePins', 'TCPin3'], ['ThermoCouplePins', 'TCPin4'], ['ThermoCouplePins', 'TCPin5'], ['ThermoCouplePins', 'TCPin6'], ['ThermoCouplePins', 'TCPin7'], ['ThermoCouplePins', 'TCPin9']]
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['ThermoCouplePins', 'TCPin8']
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TCPin8', file:'tcpin.kicad_sch'
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ThermoCouplePins', 'TCPin'], ['ThermoCouplePins', 'TCPin1'], ['ThermoCouplePins', 'TCPin10'], ['ThermoCouplePins', 'TCPin11'], ['ThermoCouplePins', 'TCPin12'], ['ThermoCouplePins', 'TCPin13'], ['ThermoCouplePins', 'TCPin14'], ['ThermoCouplePins', 'TCPin15'], ['ThermoCouplePins', 'TCPin2'], ['ThermoCouplePins', 'TCPin3'], ['ThermoCouplePins', 'TCPin4'], ['ThermoCouplePins', 'TCPin5'], ['ThermoCouplePins', 'TCPin6'], ['ThermoCouplePins', 'TCPin7'], ['ThermoCouplePins', 'TCPin9']]
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['ThermoCouplePins', 'TCPin8']
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TCPin8', file:'tcpin.kicad_sch'
+09-20 21:41:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ThermoCouplePins', 'TCPin'], ['ThermoCouplePins', 'TCPin1'], ['ThermoCouplePins', 'TCPin10'], ['ThermoCouplePins', 'TCPin11'], ['ThermoCouplePins', 'TCPin12'], ['ThermoCouplePins', 'TCPin13'], ['ThermoCouplePins', 'TCPin14'], ['ThermoCouplePins', 'TCPin15'], ['ThermoCouplePins', 'TCPin2'], ['ThermoCouplePins', 'TCPin3'], ['ThermoCouplePins', 'TCPin4'], ['ThermoCouplePins', 'TCPin5'], ['ThermoCouplePins', 'TCPin6'], ['ThermoCouplePins', 'TCPin7'], ['ThermoCouplePins', 'TCPin9']]
+09-20 21:41:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['ThermoCouplePins', 'TCPin8']
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TCPin8', file:'tcpin.kicad_sch'
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ThermoCouplePins', 'TCPin'], ['ThermoCouplePins', 'TCPin1'], ['ThermoCouplePins', 'TCPin10'], ['ThermoCouplePins', 'TCPin11'], ['ThermoCouplePins', 'TCPin12'], ['ThermoCouplePins', 'TCPin13'], ['ThermoCouplePins', 'TCPin14'], ['ThermoCouplePins', 'TCPin15'], ['ThermoCouplePins', 'TCPin2'], ['ThermoCouplePins', 'TCPin3'], ['ThermoCouplePins', 'TCPin4'], ['ThermoCouplePins', 'TCPin5'], ['ThermoCouplePins', 'TCPin6'], ['ThermoCouplePins', 'TCPin7'], ['ThermoCouplePins', 'TCPin9']]
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['ThermoCouplePins', 'TCPin'], ['ThermoCouplePins', 'TCPin1'], ['ThermoCouplePins', 'TCPin10'], ['ThermoCouplePins', 'TCPin11'], ['ThermoCouplePins', 'TCPin12'], ['ThermoCouplePins', 'TCPin13'], ['ThermoCouplePins', 'TCPin14'], ['ThermoCouplePins', 'TCPin15'], ['ThermoCouplePins', 'TCPin2'], ['ThermoCouplePins', 'TCPin3'], ['ThermoCouplePins', 'TCPin4'], ['ThermoCouplePins', 'TCPin5'], ['ThermoCouplePins', 'TCPin6'], ['ThermoCouplePins', 'TCPin7'], ['ThermoCouplePins', 'TCPin9']]
+on level: ['ThermoCouplePins', 'TCPin8']
+with tracks=False, zone=False, text=False, text=False, intersecting=False, remove=False, locked footprints=False, group_only=False
+09-20 21:41:35 root 332:updating GUI message: 'Preparing for replication'
+09-20 21:41:35 root 337:updating GUI with: 0
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+09-20 21:41:35 root 337:updating GUI with: 50
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+09-20 21:41:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
