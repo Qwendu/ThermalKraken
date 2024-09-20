@@ -663,7 +663,7 @@
 			(uuid "c423c160-d049-44e4-a753-2b90e3da6590")
 		)
 		(instances
-			(project "main_board"
+			(project "main_board-rounded"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c"
 					(page "2")
 				)
@@ -711,7 +711,7 @@
 			(uuid "8d39f5c9-d046-4e4a-ba6c-35529fd80f46")
 		)
 		(instances
-			(project "main_board"
+			(project "main_board-rounded"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c"
 					(page "4")
 				)

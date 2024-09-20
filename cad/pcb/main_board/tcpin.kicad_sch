@@ -420,6 +420,12 @@
 		(color 0 0 0 0)
 		(uuid "358c008e-d213-41d6-94c9-272550f2b0b4")
 	)
+	(junction
+		(at 88.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8044c783-5bd0-4b7a-bff4-56af57c7e995")
+	)
 	(wire
 		(pts
 			(xy 93.98 64.77) (xy 93.98 66.04)
@@ -452,7 +458,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.975) (xy 88.9 76.2)
+			(xy 88.9 57.15) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f194c5b-718d-4419-a120-027480e4567f")
+	)
+	(wire
+		(pts
+			(xy 88.9 53.975) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -469,6 +485,16 @@
 			(type default)
 		)
 		(uuid "3a2d1c97-ac19-4060-9cae-362c9f2bac4f")
+	)
+	(wire
+		(pts
+			(xy 86.36 57.15) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645ae2a8-dc8a-4cb8-8c03-29f00e3f5ada")
 	)
 	(wire
 		(pts
@@ -492,7 +518,7 @@
 	)
 	(hierarchical_label "VSSA"
 		(shape input)
-		(at 88.9 57.15 180)
+		(at 86.36 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

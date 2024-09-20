@@ -1944,6 +1944,28 @@
 		)
 		(uuid "c084bcf2-1df3-498d-98d9-02108761e854")
 	)
+	(global_label "VSSA"
+		(shape input)
+		(at 214.63 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7b04126-d494-4f57-a4ce-105189999451")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.2114 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 62.865 121.92 180)
@@ -2121,18 +2143,6 @@
 			(justify right)
 		)
 		(uuid "d074352e-d046-4857-a606-eadd5d50f5a2")
-	)
-	(hierarchical_label "VSSA"
-		(shape input)
-		(at 214.63 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de6ff79b-75d6-4459-8877-d52ff3a68b98")
 	)
 	(hierarchical_label "VDD"
 		(shape input)

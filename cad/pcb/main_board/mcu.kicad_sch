@@ -5226,7 +5226,7 @@
 			(uuid "cad4e447-7508-4cc0-9f69-c9e4b7a50371")
 		)
 		(instances
-			(project "main_board"
+			(project "main_board-rounded"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/89e1b759-e3da-4961-90e8-6f92bf79e795"
 					(page "3")
 				)
