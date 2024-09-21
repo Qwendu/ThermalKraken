@@ -2758,8 +2758,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f5eb20-2d43-4400-a16d-6bf40df0bed4")
-		(property "Reference" "SW2"
-			(at 80.01 151.765 0)
+		(property "Reference" "VEN"
+			(at 80.01 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2767,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 80.01 154.305 0)
+			(at 80.01 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +2810,7 @@
 		(instances
 			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/89e1b759-e3da-4961-90e8-6f92bf79e795/8c2804c0-90ed-471e-8073-15cf7e3965b7"
-					(reference "SW2")
+					(reference "VEN")
 					(unit 1)
 				)
 			)

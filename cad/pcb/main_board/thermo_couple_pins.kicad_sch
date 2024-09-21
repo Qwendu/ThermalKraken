@@ -1027,7 +1027,7 @@
 			(uuid "9bde3c8e-e8e5-4414-b6bc-5df9e19e2a56")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "19")
 				)
@@ -1094,7 +1094,7 @@
 			(uuid "7e0b77ec-323c-4442-9f0b-b1e5918d6c06")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "5")
 				)
@@ -1161,7 +1161,7 @@
 			(uuid "49d1f0f2-e2fe-4419-a7ac-78bf7e741666")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "12")
 				)
@@ -1228,7 +1228,7 @@
 			(uuid "808dcbc3-b907-40a1-871d-307088725bc0")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "8")
 				)
@@ -1295,7 +1295,7 @@
 			(uuid "056709ae-6f55-4d73-80df-fcdcba45acdd")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "17")
 				)
@@ -1362,7 +1362,7 @@
 			(uuid "f9b9fcb9-d901-463d-8e69-557bc4e3c7ac")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "15")
 				)
@@ -1429,7 +1429,7 @@
 			(uuid "06ca238f-1ec4-46bd-9b8c-757a9149396b")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "13")
 				)
@@ -1496,7 +1496,7 @@
 			(uuid "e2a03f1a-18a7-49a4-bbd3-f97a1338e620")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "16")
 				)
@@ -1563,7 +1563,7 @@
 			(uuid "6ef3035d-5fc0-4d2d-b969-257b8d711d44")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "20")
 				)
@@ -1630,7 +1630,7 @@
 			(uuid "4543690e-53b7-4bc0-995f-cfa9004d106b")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "18")
 				)
@@ -1697,7 +1697,7 @@
 			(uuid "93b9cf96-19ca-432d-a034-a3b8726967ef")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "11")
 				)
@@ -1764,7 +1764,7 @@
 			(uuid "ffbd28c9-73d9-4e22-902d-cdbff6a6cc36")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "9")
 				)
@@ -1831,7 +1831,7 @@
 			(uuid "68f028e0-0066-4b2b-a8e9-2d33f468fa38")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "14")
 				)
@@ -1898,7 +1898,7 @@
 			(uuid "c455026c-bbee-4f12-8a22-2fdbc3580ebf")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "7")
 				)
@@ -1965,7 +1965,7 @@
 			(uuid "17bfd185-1789-4fa7-bbbd-2bdaa0a4f3ed")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "6")
 				)
@@ -2032,7 +2032,7 @@
 			(uuid "a2e66f92-b13d-4235-836f-8024e139ac1c")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/de32f10f-5064-49a9-8c83-68eb59f8eaab"
 					(page "10")
 				)

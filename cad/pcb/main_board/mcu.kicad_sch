@@ -1741,9 +1741,9 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "TIM1_CH3" bidirectional line)
 					(alternate "USART1_RX" bidirectional line)
-					(alternate "" input line)
 					(alternate "USB_OTG_FS_ID" bidirectional line)
 				)
 				(pin bidirectional line
@@ -1763,11 +1763,11 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_EXTI11" bidirectional line)
 					(alternate "TIM1_CH4" bidirectional line)
 					(alternate "USART1_CTS" bidirectional line)
 					(alternate "USART6_TX" bidirectional line)
-					(alternate "" input line)
 					(alternate "USB_OTG_FS_DM" bidirectional line)
 				)
 				(pin bidirectional line
@@ -1787,10 +1787,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "TIM1_ETR" bidirectional line)
 					(alternate "USART1_RTS" bidirectional line)
 					(alternate "USART6_RX" bidirectional line)
-					(alternate "" input line)
 					(alternate "USB_OTG_FS_DP" bidirectional line)
 				)
 				(pin bidirectional line
@@ -2287,21 +2287,21 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DIP_x02"
+		(symbol "Switch:SW_DIP_x01"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x02"
+			(property "Value" "SW_DIP_x01"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2327,7 +2327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2345,7 +2345,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW?DIP?x2*"
+			(property "ki_fp_filters" "SW?DIP?x1*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2354,20 +2354,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_DIP_x02_0_0"
+			(symbol "SW_DIP_x01_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2389,18 +2378,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 2.032 0)
 					(radius 0.508)
@@ -2412,21 +2389,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "SW_DIP_x02_0_1"
+			(symbol "SW_DIP_x01_0_1"
 				(rectangle
-					(start -3.81 5.08)
+					(start -3.81 2.54)
 					(end 3.81 -2.54)
 					(stroke
 						(width 0.254)
@@ -2437,9 +2403,9 @@
 					)
 				)
 			)
-			(symbol "SW_DIP_x02_1_1"
+			(symbol "SW_DIP_x01_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at -7.62 0 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -2457,24 +2423,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 5.08)
 					(name "~"
@@ -2484,25 +2432,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3502,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 33.02) (xy 237.49 33.02)
+			(xy 232.41 40.64) (xy 237.49 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3562,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 33.02) (xy 266.7 33.02)
+			(xy 261.62 40.64) (xy 266.7 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3942,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 33.02) (xy 254 33.02)
+			(xy 252.73 40.64) (xy 254 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4351,7 +4281,7 @@
 	)
 	(global_label "BOOT1"
 		(shape input)
-		(at 266.7 33.02 0)
+		(at 266.7 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4361,7 +4291,7 @@
 		)
 		(uuid "11bd9aa5-e7d2-49d9-993a-da692c6115dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.7933 33.02 0)
+			(at 275.7933 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4655,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 232.41 33.02 180)
+		(at 232.41 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4735,7 +4665,7 @@
 		)
 		(uuid "af49c7cf-1b76-4b21-91f1-bca7739601f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.7962 33.02 0)
+			(at 225.7962 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5085,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 257.81 33.02 90)
+		(at 257.81 40.64 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5164,7 +5094,7 @@
 		(dnp no)
 		(uuid "32231a44-a535-4389-83c9-71f4348c84a2")
 		(property "Reference" "R2"
-			(at 257.81 38.735 90)
+			(at 257.81 46.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5102,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 257.81 36.195 90)
+			(at 257.81 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5110,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 257.81 31.242 90)
+			(at 257.81 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 33.02 0)
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5128,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 257.81 33.02 0)
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,6 +5434,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 245.11 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e4fc8de-56a0-4bb2-b5d6-9683956e1c53")
+		(property "Reference" "SWBOOT1"
+			(at 245.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x01"
+			(at 245.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a6cdcad-c6fd-40e4-b366-fdc44ee6c85b")
+		)
+		(pin "2"
+			(uuid "008c64dc-86ef-4fd6-8212-f9603e39f2a2")
+		)
+		(instances
+			(project "main_board"
+				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/89e1b759-e3da-4961-90e8-6f92bf79e795"
+					(reference "SWBOOT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 114.3 52.07 90)
 		(unit 1)
@@ -5714,6 +5712,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 245.11 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7845eb5-31e5-4111-8389-581a0875e79a")
+		(property "Reference" "SWBOOT0"
+			(at 245.11 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x01"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b1454a2-9320-44e5-91e2-5345f20733ec")
+		)
+		(pin "2"
+			(uuid "94f37f5a-5fed-4dfd-9a0a-482baae430a9")
+		)
+		(instances
+			(project ""
+				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/89e1b759-e3da-4961-90e8-6f92bf79e795"
+					(reference "SWBOOT0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
 		(at 245.11 118.11 0)
 		(mirror y)
@@ -5878,80 +5944,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x02")
-		(at 245.11 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e76babe4-de13-4bf5-ac1a-057433c7f115")
-		(property "Reference" "SW1"
-			(at 245.11 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x02"
-			(at 245.11 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7eb43f12-aff7-4ded-9710-bef4d96b10aa")
-		)
-		(pin "2"
-			(uuid "b5affb5f-0e14-45ea-80f7-e721576ed11c")
-		)
-		(pin "3"
-			(uuid "b78ffc85-4d03-4e83-89e7-88cbcb15eb2b")
-		)
-		(pin "4"
-			(uuid "0463b35d-4eb1-414c-967f-7cc2a90be895")
-		)
-		(instances
-			(project "main_board"
-				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/89e1b759-e3da-4961-90e8-6f92bf79e795"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 17.78 16.51)
 		(size 16.51 41.91)
@@ -6022,7 +6014,7 @@
 			(uuid "cad4e447-7508-4cc0-9f69-c9e4b7a50371")
 		)
 		(instances
-			(project "main_board-rounded"
+			(project "main_board"
 				(path "/6c1b8035-64fa-4797-a506-5c9583cb241c/89e1b759-e3da-4961-90e8-6f92bf79e795"
 					(page "3")
 				)
