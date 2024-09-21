@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcff00_ffffffff",
+    "visible_layers": "ffcff20_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -80,39 +80,15 @@
   "project": {
     "files": [
       {
-        "name": "main_board.kicad_sch",
+        "name": "main_board.kicad_pcb",
         "open": true,
         "window": {
           "display": 1,
-          "maximized": true,
-          "pos_x": -11,
-          "pos_y": -11,
-          "size_x": 5142,
-          "size_y": 2182
-        }
-      },
-      {
-        "name": "main_board.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
           "maximized": false,
-          "pos_x": -10,
+          "pos_x": 2550,
           "pos_y": 0,
-          "size_x": 2602,
+          "size_x": 2580,
           "size_y": 2170
-        }
-      },
-      {
-        "name": "main_board.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 365,
-          "pos_y": 302,
-          "size_x": 2295,
-          "size_y": 1342
         }
       }
     ]
