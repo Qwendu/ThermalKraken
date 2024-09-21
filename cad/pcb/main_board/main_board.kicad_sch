@@ -362,12 +362,12 @@
 		)
 	)
 	(no_connect
-		(at 136.525 60.96)
+		(at 137.16 60.96)
 		(uuid "124ea00a-47ae-422d-bcb3-f70ea696f989")
 	)
 	(wire
 		(pts
-			(xy 103.505 66.04) (xy 126.365 66.04)
+			(xy 104.14 66.04) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
@@ -377,7 +377,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 94.615) (xy 116.84 118.745)
+			(xy 116.84 95.25) (xy 116.84 119.38)
 		)
 		(stroke
 			(width 0)
@@ -387,7 +387,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 68.58) (xy 126.365 68.58)
+			(xy 104.14 68.58) (xy 127 68.58)
 		)
 		(stroke
 			(width 0)
@@ -397,7 +397,7 @@
 	)
 	(bus
 		(pts
-			(xy 103.505 94.615) (xy 116.84 94.615)
+			(xy 104.14 95.25) (xy 116.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -407,7 +407,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 126.365 76.2)
+			(xy 120.65 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -417,7 +417,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 71.12) (xy 126.365 71.12)
+			(xy 104.14 71.12) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
@@ -427,7 +427,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 118.745) (xy 104.14 118.745)
+			(xy 116.84 119.38) (xy 104.14 119.38)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 60.96) (xy 133.985 59.055)
+			(xy 134.62 60.96) (xy 134.62 59.69)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 59.055) (xy 133.985 59.055)
+			(xy 120.65 59.69) (xy 134.62 59.69)
 		)
 		(stroke
 			(width 0)
@@ -457,7 +457,7 @@
 	)
 	(text "Add Status LEDs\n- Voltage Regulator EN\n- 3v3 Good\n- 3v3A Good\n- Boot0/Boot1\n- Reset"
 		(exclude_from_sim no)
-		(at 184.912 26.924 0)
+		(at 185.42 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -490,7 +490,7 @@
 	)
 	(global_label "VSS"
 		(shape input)
-		(at 120.015 59.055 180)
+		(at 120.65 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -500,7 +500,7 @@
 		)
 		(uuid "97162173-bf24-4f38-a48c-e0719b0b4b1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.5222 59.055 0)
+			(at 114.1572 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +512,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 133.985 71.12 180)
+		(at 134.62 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -521,7 +521,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e7a8891-0caa-4493-95b1-cf8d534fa6b7")
 		(property "Reference" "J1"
-			(at 140.97 69.85 0)
+			(at 141.605 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +530,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 140.97 72.39 0)
+			(at 141.605 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +539,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_Micro-B_Molex_47346-0001"
-			(at 130.175 69.85 0)
+			(at 130.81 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.175 69.85 0)
+			(at 130.81 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,8 +556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 133.985 71.12 0)
+		(property "Description" "USB Micro Type B connector"
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,8 +593,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 55.245)
-		(size 73.025 46.355)
+		(at 30.48 55.88)
+		(size 73.66 45.72)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -605,7 +605,7 @@
 		)
 		(uuid "89e1b759-e3da-4961-90e8-6f92bf79e795")
 		(property "Sheetname" "MCU"
-			(at 30.48 54.5334 0)
+			(at 30.48 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +614,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 30.48 102.1846 0)
+			(at 30.48 102.8196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +623,7 @@
 			)
 		)
 		(pin "ADC_IN[0..15]" input
-			(at 103.505 94.615 0)
+			(at 104.14 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +633,7 @@
 			(uuid "c1d998cc-3bd0-4d5f-a116-8616001adef7")
 		)
 		(pin "USB_D-" input
-			(at 103.505 68.58 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +643,7 @@
 			(uuid "35da882a-5911-438f-a1de-f54ce9507025")
 		)
 		(pin "USB_D+" input
-			(at 103.505 71.12 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +653,7 @@
 			(uuid "146950f1-9f4e-4ca5-90f0-1c920cf9df6f")
 		)
 		(pin "USB_ID" input
-			(at 103.505 66.04 0)
+			(at 104.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,8 +671,8 @@
 		)
 	)
 	(sheet
-		(at 29.845 111.125)
-		(size 74.295 37.465)
+		(at 30.48 111.76)
+		(size 73.66 36.83)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -683,7 +683,7 @@
 		)
 		(uuid "de32f10f-5064-49a9-8c83-68eb59f8eaab")
 		(property "Sheetname" "ThermoCouplePins"
-			(at 29.845 110.4134 0)
+			(at 30.48 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +692,7 @@
 			)
 		)
 		(property "Sheetfile" "thermo_couple_pins.kicad_sch"
-			(at 29.845 149.1746 0)
+			(at 30.48 149.8096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +701,7 @@
 			)
 		)
 		(pin "VOUT[0..15]" input
-			(at 104.14 118.745 0)
+			(at 104.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

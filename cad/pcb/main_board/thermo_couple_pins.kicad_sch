@@ -6,49 +6,49 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 102.235 100.33)
+		(at 102.87 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20534671-c343-4ab3-9e03-cec1a3b8e346")
 	)
 	(junction
-		(at 147.955 100.33)
+		(at 148.59 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25b51675-855e-439c-8e6f-59e5280a4207")
 	)
 	(junction
-		(at 163.195 100.33)
+		(at 163.83 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "593ffe82-2f74-4447-be1f-99c79520473e")
 	)
 	(junction
-		(at 208.915 100.33)
+		(at 209.55 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "955b4c81-e87f-490c-be3a-3dac2f5566a3")
 	)
 	(junction
-		(at 117.475 100.33)
+		(at 118.11 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1ebf636-f9af-4b6d-a6f0-c4d1a4507340")
 	)
 	(junction
-		(at 178.435 100.33)
+		(at 179.07 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca557b0e-f726-4ecb-a1e3-6790d9e604ed")
 	)
 	(junction
-		(at 193.675 100.33)
+		(at 194.31 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf879270-a3d9-4982-a2da-d65093b120bd")
 	)
 	(junction
-		(at 132.715 100.33)
+		(at 133.35 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2d50f95-5656-4f60-8ea3-6d0adfdf9c17")
@@ -199,6 +199,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 95.25) (xy 209.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0363b13e-2b1f-4685-9fac-4f835cee3f67")
+	)
+	(wire
+		(pts
 			(xy 212.09 76.2) (xy 212.09 92.71)
 		)
 		(stroke
@@ -209,7 +219,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 100.33) (xy 178.435 100.33)
+			(xy 163.83 100.33) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -229,7 +239,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 76.2) (xy 163.195 100.33)
+			(xy 163.83 76.2) (xy 163.83 95.25)
 		)
 		(stroke
 			(width 0)
@@ -249,7 +259,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 100.33) (xy 193.675 100.33)
+			(xy 179.07 100.33) (xy 194.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -259,7 +269,27 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 100.33) (xy 208.915 100.33)
+			(xy 179.07 95.25) (xy 179.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188828ee-0451-47ff-99c0-56d61c40b487")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d8b4e1-848e-41ea-bd2e-b82718759bd3")
+	)
+	(wire
+		(pts
+			(xy 194.31 100.33) (xy 209.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -309,7 +339,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 113.03) (xy 147.955 100.33)
+			(xy 148.59 113.03) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -329,7 +359,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.915 76.2) (xy 208.915 100.33)
+			(xy 209.55 76.2) (xy 209.55 95.25)
 		)
 		(stroke
 			(width 0)
@@ -339,7 +369,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 76.2) (xy 117.475 100.33)
+			(xy 118.11 76.2) (xy 118.11 95.25)
 		)
 		(stroke
 			(width 0)
@@ -379,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 113.03) (xy 117.475 100.33)
+			(xy 118.11 113.03) (xy 118.11 100.33)
 		)
 		(stroke
 			(width 0)
@@ -389,7 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 113.03) (xy 178.435 100.33)
+			(xy 179.07 113.03) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -399,7 +429,17 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 76.2) (xy 178.435 100.33)
+			(xy 102.87 95.25) (xy 102.87 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd9f6d9-4bac-4843-a092-075ba41c22ac")
+	)
+	(wire
+		(pts
+			(xy 179.07 76.2) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -409,7 +449,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 76.2) (xy 102.235 100.33)
+			(xy 102.87 76.2) (xy 102.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -419,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 100.33) (xy 117.475 100.33)
+			(xy 102.87 100.33) (xy 118.11 100.33)
 		)
 		(stroke
 			(width 0)
@@ -429,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 113.03) (xy 193.675 100.33)
+			(xy 194.31 113.03) (xy 194.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 76.2) (xy 193.675 100.33)
+			(xy 194.31 76.2) (xy 194.31 95.25)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 100.33) (xy 132.715 100.33)
+			(xy 118.11 100.33) (xy 133.35 100.33)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 113.03) (xy 132.715 100.33)
+			(xy 133.35 113.03) (xy 133.35 100.33)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 113.03) (xy 163.195 100.33)
+			(xy 163.83 113.03) (xy 163.83 100.33)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.915 113.03) (xy 208.915 100.33)
+			(xy 209.55 113.03) (xy 209.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +559,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 100.33) (xy 147.955 100.33)
+			(xy 133.35 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -539,13 +579,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 76.2) (xy 132.715 100.33)
+			(xy 133.35 76.2) (xy 133.35 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7b18b98-674f-4c10-9db0-8d9bde6e365a")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ac058c-7713-496d-93ad-bbd1b9646034")
 	)
 	(bus
 		(pts
@@ -559,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 100.33) (xy 102.235 100.33)
+			(xy 80.01 100.33) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -579,13 +629,33 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 100.33) (xy 163.195 100.33)
+			(xy 148.59 100.33) (xy 163.83 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c56af5bf-e6cc-4321-895e-70bbb83e7234")
+	)
+	(wire
+		(pts
+			(xy 194.31 95.25) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a36b3b-b998-4d5a-bc3b-e02d7750c4c1")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 163.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9c14c2-2db3-47d7-aa38-e62ebd76cccd")
 	)
 	(bus
 		(pts
@@ -599,7 +669,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 76.2) (xy 147.955 100.33)
+			(xy 118.11 95.25) (xy 118.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2838bc0-5f0c-442b-9a63-0539c330ab25")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 113.03) (xy 102.235 100.33)
+			(xy 102.87 113.03) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -888,8 +968,8 @@
 		(uuid "60baa794-3df6-472d-b8cc-b444c3da9fac")
 	)
 	(sheet
-		(at 187.325 66.675)
-		(size 12.7 9.525)
+		(at 187.96 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -899,7 +979,7 @@
 		)
 		(uuid "28361e6f-172e-4308-af60-501e4288a67c")
 		(property "Sheetname" "TCPin13"
-			(at 187.96 68.58 0)
+			(at 188.595 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +988,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 186.69 75.5146 0)
+			(at 187.325 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +998,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 187.325 66.675 0)
+			(at 187.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1017,7 @@
 			(uuid "3a0de9bb-d968-42ff-b39c-7ba21978b671")
 		)
 		(pin "VSSA" input
-			(at 193.675 76.2 270)
+			(at 194.31 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,8 +1035,8 @@
 		)
 	)
 	(sheet
-		(at 95.885 113.03)
-		(size 12.7 9.525)
+		(at 96.52 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -966,7 +1046,7 @@
 		)
 		(uuid "30122caa-95f6-40d1-ba5b-69cff80674ce")
 		(property "Sheetname" "TCPin"
-			(at 95.885 121.92 0)
+			(at 96.52 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +1055,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 95.25 121.8696 0)
+			(at 95.885 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1065,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 95.885 113.03 0)
+			(at 96.52 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1084,7 @@
 			(uuid "4c5a5029-4f63-4a7b-a0f0-07feadb82dc3")
 		)
 		(pin "VSSA" input
-			(at 102.235 113.03 90)
+			(at 102.87 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,8 +1102,8 @@
 		)
 	)
 	(sheet
-		(at 202.565 113.03)
-		(size 12.7 9.525)
+		(at 203.2 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1033,7 +1113,7 @@
 		)
 		(uuid "36c9a952-c2c0-4742-bef5-43812283685d")
 		(property "Sheetname" "TCPin7"
-			(at 202.565 121.92 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1122,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 201.93 121.8696 0)
+			(at 202.565 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1132,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 202.565 113.03 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1151,7 @@
 			(uuid "b165504e-d61e-4c85-b219-aa87e06e9093")
 		)
 		(pin "VSSA" input
-			(at 208.915 113.03 90)
+			(at 209.55 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,8 +1169,8 @@
 		)
 	)
 	(sheet
-		(at 141.605 113.03)
-		(size 12.7 9.525)
+		(at 142.24 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1100,7 +1180,7 @@
 		)
 		(uuid "452f8239-6f04-4990-b793-077b75cb9e63")
 		(property "Sheetname" "TCPin3"
-			(at 141.605 121.92 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1189,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 140.97 121.8696 0)
+			(at 141.605 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1199,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 141.605 113.03 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1218,7 @@
 			(uuid "24a7ed0e-abb6-42f2-845f-a15beb34d726")
 		)
 		(pin "VSSA" input
-			(at 147.955 113.03 90)
+			(at 148.59 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,8 +1236,8 @@
 		)
 	)
 	(sheet
-		(at 156.845 66.675)
-		(size 12.7 9.525)
+		(at 157.48 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1167,7 +1247,7 @@
 		)
 		(uuid "5b3193da-5649-4022-8742-e0b531d318b7")
 		(property "Sheetname" "TCPin14"
-			(at 157.48 68.58 0)
+			(at 158.115 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1256,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 156.21 75.5146 0)
+			(at 156.845 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1266,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 156.845 66.675 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1285,7 @@
 			(uuid "517b78d6-d852-4302-a5d8-a5bc2f7a05d2")
 		)
 		(pin "VSSA" input
-			(at 163.195 76.2 270)
+			(at 163.83 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,8 +1303,8 @@
 		)
 	)
 	(sheet
-		(at 126.365 66.675)
-		(size 12.7 9.525)
+		(at 127 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1234,7 +1314,7 @@
 		)
 		(uuid "628439ef-5cc3-4f48-b11b-7353eadf47d5")
 		(property "Sheetname" "TCPin10"
-			(at 127 68.58 0)
+			(at 127.635 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1323,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 125.73 75.5146 0)
+			(at 126.365 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1333,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 126.365 66.675 0)
+			(at 127 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1352,7 @@
 			(uuid "5edab5a2-de8f-4ed9-ac17-f2bc6966c59b")
 		)
 		(pin "VSSA" input
-			(at 132.715 76.2 270)
+			(at 133.35 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,8 +1370,8 @@
 		)
 	)
 	(sheet
-		(at 95.885 66.675)
-		(size 12.7 9.525)
+		(at 96.52 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1301,7 +1381,7 @@
 		)
 		(uuid "64490793-e602-4a25-8f06-bfd2b47583b1")
 		(property "Sheetname" "TCPin8"
-			(at 96.52 68.58 0)
+			(at 97.155 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1390,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 95.25 75.5146 0)
+			(at 95.885 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1400,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 95.885 66.675 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1419,7 @@
 			(uuid "80a62eaa-598d-4d54-8c52-5970a2d9d555")
 		)
 		(pin "VSSA" input
-			(at 102.235 76.2 270)
+			(at 102.87 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,8 +1437,8 @@
 		)
 	)
 	(sheet
-		(at 141.605 66.675)
-		(size 12.7 9.525)
+		(at 142.24 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1368,7 +1448,7 @@
 		)
 		(uuid "7476be86-a201-44dc-855b-649ba629542c")
 		(property "Sheetname" "TCPin11"
-			(at 142.24 68.58 0)
+			(at 142.875 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1457,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 140.97 75.5146 0)
+			(at 141.605 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1467,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 141.605 66.675 0)
+			(at 142.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1486,7 @@
 			(uuid "acb340f6-72e0-4ca7-a916-27de8a6b549a")
 		)
 		(pin "VSSA" input
-			(at 147.955 76.2 270)
+			(at 148.59 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,8 +1504,8 @@
 		)
 	)
 	(sheet
-		(at 202.565 66.675)
-		(size 12.7 9.525)
+		(at 203.2 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1435,7 +1515,7 @@
 		)
 		(uuid "9508c33e-83c4-4436-97f4-70c3d616dfea")
 		(property "Sheetname" "TCPin12"
-			(at 203.2 68.58 0)
+			(at 203.835 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1524,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 201.93 75.5146 0)
+			(at 202.565 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1534,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 202.565 66.675 0)
+			(at 203.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1553,7 @@
 			(uuid "2ac54e40-d5f1-44c7-b70b-3e5959c1c48d")
 		)
 		(pin "VSSA" input
-			(at 208.915 76.2 270)
+			(at 209.55 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,8 +1571,8 @@
 		)
 	)
 	(sheet
-		(at 172.085 66.675)
-		(size 12.7 9.525)
+		(at 172.72 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1502,7 +1582,7 @@
 		)
 		(uuid "99a35043-9574-4a1a-a644-d59aa9b304c9")
 		(property "Sheetname" "TCPin15"
-			(at 172.72 68.58 0)
+			(at 173.355 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1591,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 171.45 75.5146 0)
+			(at 172.085 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1601,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 172.085 66.675 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1620,7 @@
 			(uuid "8b96ed02-6323-4cc6-9c36-ebe3c27f9c5b")
 		)
 		(pin "VSSA" input
-			(at 178.435 76.2 270)
+			(at 179.07 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,8 +1638,8 @@
 		)
 	)
 	(sheet
-		(at 187.325 113.03)
-		(size 12.7 9.525)
+		(at 187.96 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1569,7 +1649,7 @@
 		)
 		(uuid "9cd5dfbc-b649-4139-8fd0-b14d91926404")
 		(property "Sheetname" "TCPin6"
-			(at 187.325 121.92 0)
+			(at 187.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1658,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 186.69 121.8696 0)
+			(at 187.325 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1668,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 187.325 113.03 0)
+			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1687,7 @@
 			(uuid "9754cd30-4ad5-4750-931f-c70962b7be54")
 		)
 		(pin "VSSA" input
-			(at 193.675 113.03 90)
+			(at 194.31 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,8 +1705,8 @@
 		)
 	)
 	(sheet
-		(at 156.845 113.03)
-		(size 12.7 9.525)
+		(at 157.48 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1636,7 +1716,7 @@
 		)
 		(uuid "a4177109-8728-41ba-8182-6fe7aa538da6")
 		(property "Sheetname" "TCPin4"
-			(at 156.845 121.92 0)
+			(at 157.48 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1725,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 156.21 121.8696 0)
+			(at 156.845 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +1735,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1754,7 @@
 			(uuid "6c8b27a8-0520-4015-8313-084b6bead349")
 		)
 		(pin "VSSA" input
-			(at 163.195 113.03 90)
+			(at 163.83 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,8 +1772,8 @@
 		)
 	)
 	(sheet
-		(at 111.125 66.675)
-		(size 12.7 9.525)
+		(at 111.76 67.31)
+		(size 12.7 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1703,7 +1783,7 @@
 		)
 		(uuid "a696fab9-ccc5-4cc2-8c43-30330e0591c5")
 		(property "Sheetname" "TCPin9"
-			(at 111.76 68.58 0)
+			(at 112.395 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1792,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 110.49 75.5146 0)
+			(at 111.125 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1802,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 111.125 66.675 0)
+			(at 111.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1821,7 @@
 			(uuid "ce801ff5-0ab0-4620-9f63-9925bcec4319")
 		)
 		(pin "VSSA" input
-			(at 117.475 76.2 270)
+			(at 118.11 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,8 +1839,8 @@
 		)
 	)
 	(sheet
-		(at 126.365 113.03)
-		(size 12.7 9.525)
+		(at 127 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1770,7 +1850,7 @@
 		)
 		(uuid "c4a29f8a-f5d6-4f53-96c5-3bb91c5e7f7b")
 		(property "Sheetname" "TCPin2"
-			(at 126.365 121.92 0)
+			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1859,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 125.73 121.8696 0)
+			(at 126.365 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1869,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 126.365 113.03 0)
+			(at 127 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1888,7 @@
 			(uuid "72751a8c-7d5e-44cd-ae12-10abb18b841f")
 		)
 		(pin "VSSA" input
-			(at 132.715 113.03 90)
+			(at 133.35 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,8 +1906,8 @@
 		)
 	)
 	(sheet
-		(at 111.125 113.03)
-		(size 12.7 9.525)
+		(at 111.76 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1837,7 +1917,7 @@
 		)
 		(uuid "e383c969-8012-4dd9-b39a-7d705a3f9935")
 		(property "Sheetname" "TCPin1"
-			(at 111.125 121.92 0)
+			(at 111.76 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1926,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 110.49 121.8696 0)
+			(at 111.125 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1936,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 111.125 113.03 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1955,7 @@
 			(uuid "d7941dc6-d378-4814-8257-d57145740da2")
 		)
 		(pin "VSSA" input
-			(at 117.475 113.03 90)
+			(at 118.11 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,8 +1973,8 @@
 		)
 	)
 	(sheet
-		(at 172.085 113.03)
-		(size 12.7 9.525)
+		(at 172.72 113.03)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1904,7 +1984,7 @@
 		)
 		(uuid "ecb9e7a0-a4b4-49f8-b270-b14d75a7f561")
 		(property "Sheetname" "TCPin5"
-			(at 172.085 121.92 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1993,7 @@
 			)
 		)
 		(property "Sheetfile" "tcpin.kicad_sch"
-			(at 171.45 121.8696 0)
+			(at 172.085 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +2003,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 172.085 113.03 0)
+			(at 172.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +2022,7 @@
 			(uuid "2bd4e9a7-9208-436a-961d-08e71e791e05")
 		)
 		(pin "VSSA" input
-			(at 178.435 113.03 90)
+			(at 179.07 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
