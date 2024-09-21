@@ -1,4 +1,4 @@
-23846536253191683
+23848263162659473
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96774,3 +96774,10 @@ NCP164CSN330T1G
 0
 5
 5
+local
+POGO_JTAG_SWD
+
+
+0
+10
+10
