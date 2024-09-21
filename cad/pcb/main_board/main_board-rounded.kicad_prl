@@ -81,14 +81,14 @@
     "files": [
       {
         "name": "main_board.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 1,
-          "maximized": false,
-          "pos_x": 2550,
-          "pos_y": 0,
-          "size_x": 2580,
-          "size_y": 2170
+          "maximized": true,
+          "pos_x": -11,
+          "pos_y": -11,
+          "size_x": 5142,
+          "size_y": 2182
         }
       },
       {
@@ -105,7 +105,7 @@
       },
       {
         "name": "main_board-rounded.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 1,
           "maximized": false,
