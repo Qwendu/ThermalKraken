@@ -1238,12 +1238,6 @@
 		(color 0 0 0 0)
 		(uuid "f55e6301-0ea4-45ae-9ca4-fbbbc3128d36")
 	)
-	(junction
-		(at 203.2 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f57051ff-f41a-49b9-9dc4-4c8f14d3d891")
-	)
 	(no_connect
 		(at 130.81 129.54)
 		(uuid "ab079910-52b9-4bc1-9411-788735c7935e")
@@ -1554,16 +1548,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 72.39) (xy 203.2 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf394d3-1eb6-40e4-93b6-a9d17f5ef147")
-	)
-	(wire
-		(pts
 			(xy 190.5 62.23) (xy 190.5 59.69)
 		)
 		(stroke
@@ -1754,6 +1738,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2745b3f-4c08-44ed-aab4-2e5f0b235a38")
+	)
+	(wire
+		(pts
 			(xy 102.87 72.39) (xy 102.87 69.85)
 		)
 		(stroke
@@ -1852,16 +1846,6 @@
 		)
 		(uuid "ebf09ba5-5574-40d5-86ea-46e036f4d689")
 	)
-	(wire
-		(pts
-			(xy 186.69 72.39) (xy 190.5 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1336ae3-23e4-4fe8-b9e0-9bd90312d2bb")
-	)
 	(rectangle
 		(start 46.355 104.14)
 		(end 167.64 191.135)
@@ -1952,28 +1936,6 @@
 		)
 		(uuid "c084bcf2-1df3-498d-98d9-02108761e854")
 	)
-	(global_label "VSSA"
-		(shape input)
-		(at 214.63 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b7b04126-d494-4f57-a4ce-105189999451")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2114 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 63.5 121.92 180)
@@ -2022,7 +1984,7 @@
 	)
 	(hierarchical_label "VSS"
 		(shape input)
-		(at 186.69 72.39 180)
+		(at 180.34 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

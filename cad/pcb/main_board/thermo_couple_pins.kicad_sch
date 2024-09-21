@@ -933,7 +933,7 @@
 		)
 		(uuid "d9db2406-e60f-4e14-9b34-096e0f3c9d85")
 	)
-	(global_label "VSSA"
+	(global_label "VSS"
 		(shape input)
 		(at 80.01 100.33 180)
 		(fields_autoplaced yes)
@@ -945,7 +945,7 @@
 		)
 		(uuid "db9cd58b-bb2b-401b-a08f-6cc6408beb11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.4286 100.33 0)
+			(at 73.5172 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
