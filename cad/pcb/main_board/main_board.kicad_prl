@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -19,13 +19,13 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       0,
@@ -81,13 +81,13 @@
     "files": [
       {
         "name": "main_board.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 1,
           "maximized": false,
-          "pos_x": 2550,
+          "pos_x": -10,
           "pos_y": 0,
-          "size_x": 2580,
+          "size_x": 2594,
           "size_y": 2170
         }
       }
