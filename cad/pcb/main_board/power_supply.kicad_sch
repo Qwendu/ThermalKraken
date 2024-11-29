@@ -1882,6 +1882,16 @@
 		)
 		(uuid ffa79bc0-3fc2-4eeb-8421-aa2bb6a3bf94)
 	)
+	(text "Dropout at 0.258 V V_{IN} -> V_{OUT} for temp range -40 +125"
+		(exclude_from_sim no)
+		(at 114.808 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07e9d6bd-bee1-40ee-9cb5-3091330bb2ba")
+	)
 	(text "Linear Voltage Regulator"
 		(exclude_from_sim no)
 		(at 46.99 104.14 0)
@@ -1915,13 +1925,14 @@
 		)
 		(uuid "87c1a7f9-4899-489c-8a75-802b5e918d35")
 	)
-	(text "Check how long the discharge takes!"
+	(text "V_{LO} = 0.3V\nt= RC ln(5V/0.3V) = 0.0028134 second"
 		(exclude_from_sim no)
-		(at 111.76 157.48 0)
+		(at 92.71 156.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "9e4e0963-4fa4-46be-ab92-5a7443ef35e9")
 	)
