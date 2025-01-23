@@ -1389,6 +1389,17 @@
 		)
 		(uuid "ea22c327-a4e1-43d5-b113-bacaae7608d3")
 	)
+	(text "Missing:\n- Shielding\n- Input offset voltage compensation\n- Gain computation\n- actual opamp used\n- actual adc used\n- connections for MCU\n- voltage connections\n- low pass filters for input"
+		(exclude_from_sim no)
+		(at 123.444 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "301de92a-cb10-4a29-883b-6df71bf91dc7")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 182.88 77.47 0)
