@@ -1,0 +1,45 @@
+LTspice 24.1.1 for Windows
+Circuit: D:\dev\projects\c0mm3nt\ThermalKraken\cad\opamp_spice\thermocouple_sim.net
+Start Time: Wed Feb  5 15:21:59 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+noOpIter = true
+Direct Newton iteration for .op point skipped.
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:     u1:D1       u1:D2
+Model:      x           x
+Id:     -3.30e-12   -6.39e-18
+Vd:     -3.30e+00   -6.38e-06
+Req:     1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00
+
+
+Total elapsed time: 3.237 seconds.
+
+Files loaded:
+D:\dev\projects\c0mm3nt\ThermalKraken\cad\opamp_spice\thermocouple_sim.net
+C:\Users\sebpf\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+

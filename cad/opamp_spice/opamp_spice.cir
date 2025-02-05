@@ -1,0 +1,19 @@
+.title KiCad schematic
+.include "D:/dev/tools/.Editor/KiCAD/8.0/share/kicad/symbols/Simulation_SPICE.sp"
+.op
+.step temp -20 80 1
+R8 Net-_U2--_ /Tout 1.2e+07
+XU2 /T+ Net-_U2--_ +3V3 0 /Tout kicad_builtin_opamp
+R2 /TC- 0 4000
+R1 +3V3 /TC- 9000
+V1 /TC+ /TC- DC 0.007 
+R6 Net-_U2--_ /T- 1e+06
+R4 /T- 0 2000
+R3 +3V3 /T- 9000
+V2 /T+ /T- DC 0.007 
+R9 +3V3 /T+ 3.3Meg
+R5 Net-_U1--_ /TC- 1e+06
+R7 Net-_U1--_ /TCout 3.2e+07
+XU1 /TC+ Net-_U1--_ +3V3 0 /TCout kicad_builtin_opamp
+V3 +3V3 0 DC 3.3 
+.end

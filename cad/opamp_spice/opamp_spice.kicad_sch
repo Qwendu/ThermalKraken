@@ -1546,7 +1546,7 @@
 		)
 		(uuid bd73e2c4-376c-4aa9-9b9d-ec516589bb96)
 	)
-	(text "SPICE simulation indicates:\n0.471 T_{out} @ 0  mV\n3.107 T_{out} @ 200mV\n"
+	(text "SPICE simulation indicates:\n0.471 T_{out} @ 0  mV\n3.07  T_{out} @ 200mV\n"
 		(exclude_from_sim no)
 		(at 236.22 39.37 0)
 		(effects
@@ -1567,6 +1567,17 @@
 			(justify left top)
 		)
 		(uuid "683dc3ec-457e-47c9-bbef-132326933c9d")
+	)
+	(text ".op\n.step temp -20 80 1"
+		(exclude_from_sim no)
+		(at 147.32 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9e9091e7-965b-48a6-8139-9de95d8bc451")
 	)
 	(text "Thermistor Simulation:\nwhere the voltage source simulates the voltage drop \naccross the thermistor."
 		(exclude_from_sim no)
